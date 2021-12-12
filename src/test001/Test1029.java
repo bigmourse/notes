@@ -1,11 +1,18 @@
 package test001;
 
+
+import com.sun.jdi.connect.spi.Connection;
+
 import java.util.ArrayList;
 import java.util.*;
 
 public class Test1029 {
-
+    static HashMap<Integer,Integer> hashMap=new HashMap<>();
     public static void main(String[] args) {
+
+
+Set<Integer> set=hashMap.keySet();
+
         int[] arrint={2,4,7,2,5,43,85,34,2,5,9,6,34,21,11,12};
         ArrayList<ArrayList<Integer>> list=new Solution().combinationSum2(arrint,23);
         for(ArrayList<Integer> a:list){
