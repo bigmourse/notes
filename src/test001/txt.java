@@ -7,14 +7,16 @@ import java.util.ArrayList;
 
 public class txt {
     public static void main(String[] args) throws IOException {
-        String[] arrstr=new String[]{"0","pi","pi","0"};
+        String[] arrstr=new String[]{"0","180.0","180.0","0"};
         int strLength=arrstr.length;
         String type="A";
+
 //        int[] arrint=new int[]{0,1,1,0,1,0};
 //        int strLength=arrint.length;
 //        String type="theta";
 
-        String path="d:/Users/pc/Desktop/FBG_"+String.valueOf(strLength)+"_"+type+".txt";
+
+        String path="d:/Users/pc/Desktop/方案/point2/point2.vtmu_pack/Inputs/SSFBG_"+String.valueOf(strLength)+"_"+type+".txt";
         File fileName=new File(path);
         if (!fileName.exists()) {
             try {
