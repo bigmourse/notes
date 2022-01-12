@@ -1,6 +1,7 @@
 package test001;
 
 import java.io.*;
+import java.lang.reflect.Field;
 import java.util.ArrayList;
 
 public class txt {
@@ -9,7 +10,7 @@ public class txt {
         String filePath = "d:/Users/pc/Desktop/方案/point2/point2.vtmu_pack/Inputs/neff_data.csv";
         FileReader fr=new FileReader(filePath);
         BufferedReader reader=new BufferedReader(fr);
-        double frequency=192.0002;//Thz单位的频率
+        double frequency=193.6145;//Thz单位的频率
         int number=(int)((frequency-192.0)*10000)+7;//频率在csv表格中的第几行
         String line=null;
         int forNumber=0;
@@ -28,14 +29,70 @@ public class txt {
         }
         fr.close();
 
-//        String[] arrstr=new String[]{"0","pi","pi","0","0","pi","0","pi"};
-//        int strLength=arrstr.length;
-//        String type="theta";
+//        阿尔玛序列H
+//        String[] H8_1=new String[]{"180.0","180.0","180.0","180.0","180.0","180.0","180.0","180.0"};//全1
+        String[] H8_2=new String[]{"180.0","0","180.0","0","180.0","0","180.0","0"};
+        String[] H8_3=new String[]{"180.0","180.0","0","0","180.0","180.0","0","0"};
+        String[] H8_4=new String[]{"180.0","0","0","180.0","180.0","0","0","180.0"};
+        String[] H8_5=new String[]{"180.0","180.0","180.0","180.0","0","0","0","0"};
+        String[] H8_6=new String[]{"180.0","0","180.0","0","0","180.0","0","180.0"};
+        String[] H8_7=new String[]{"180.0","180.0","0","0","0","0","180.0","180.0"};
+        String[] H8_8=new String[]{"180.0","0","0","180.0","0","180.0","180.0","0"};
+
+//        String[] H16_1=new String[]{"180.0","180.0","180.0","180.0","180.0","180.0","180.0","180.0","180.0","180.0","180.0","180.0","180.0","180.0","180.0","180.0"};//全1
+        String[] H16_2=new String[]{"180.0","0","180.0","0","180.0","0","180.0","0","180.0","0","180.0","0","180.0","0","180.0","0"};
+        String[] H16_3=new String[]{"180.0","180.0","0","0","180.0","180.0","0","0","180.0","180.0","0","0","180.0","180.0","0","0"};
+        String[] H16_4=new String[]{"180.0","0","0","180.0","180.0","0","0","180.0","180.0","0","0","180.0","180.0","0","0","180.0"};
+        String[] H16_5=new String[]{"180.0","180.0","180.0","180.0","0","0","0","0","180.0","180.0","180.0","180.0","0","0","0","0"};
+        String[] H16_6=new String[]{"180.0","0","180.0","0","0","180.0","0","180.0","180.0","0","180.0","0","0","180.0","0","180.0"};
+        String[] H16_7=new String[]{"180.0","180.0","0","0","0","0","180.0","180.0","180.0","180.0","0","0","0","0","180.0","180.0"};
+        String[] H16_8=new String[]{"180.0","0","0","180.0","0","180.0","180.0","0","180.0","0","0","180.0","0","180.0","180.0","0"};
+        String[] H16_9=new String[]{"180.0","180.0","180.0","180.0","180.0","180.0","180.0","180.0","0","0","0","0","0","0","0","0"};
+        String[] H16_10=new String[]{"180.0","0","180.0","0","180.0","0","180.0","0","0","180.0","0","180.0","0","180.0","0","180.0"};
+        String[] H16_11=new String[]{"180.0","180.0","0","0","180.0","180.0","0","0","0","0","180.0","180.0","0","0","180.0","180.0"};
+        String[] H16_12=new String[]{"180.0","0","0","180.0","180.0","0","0","180.0","0","180.0","180.0","0","0","180.0","180.0","0"};
+        String[] H16_13=new String[]{"180.0","180.0","180.0","180.0","0","0","0","0","0","0","0","0","180.0","180.0","180.0","180.0"};
+        String[] H16_14=new String[]{"180.0","0","180.0","0","0","180.0","0","180.0","0","180.0","0","180.0","180.0","0","180.0","0"};
+        String[] H16_15=new String[]{"180.0","180.0","0","0","0","0","180.0","180.0","0","0","180.0","180.0","180.0","180.0","0","0"};
+        String[] H16_16=new String[]{"180.0","0","0","180.0","0","180.0","180.0","0","0","180.0","180.0","0","180.0","0","0","180.0"};
+
+//        m序列
+        String[] m7_1=new String[]{"0","180.0","180.0","0","180.0","0","0"};
+        String[] m7_2=new String[]{"180.0","0","180.0","0","0","0","180.0"};
+        String[] m7_3=new String[]{"0","0","180.0","180.0","0","180.0","0"};
+        String[] m7_4=new String[]{"180.0","180.0","0","180.0","0","0","0"};
+        String[] m7_5=new String[]{"0","180.0","0","0","0","180.0","180.0"};
+        String[] m7_6=new String[]{"180.0","0","0","0","180.0","180.0","0"};
+        String[] m7_7=new String[]{"0","0","0","180.0","180.0","0","180.0"};
+
+        String[] m15_1=new String[]{"0","180.0","180.0","180.0","0","180.0","180.0","0","0","180.0","0","180.0","0","0","0"};
+        String[] m15_2=new String[]{"180.0","0","180.0","180.0","0","0","180.0","0","180.0","0","0","0","0","180.0","180.0"};
+        String[] m15_3=new String[]{"0","0","180.0","180.0","180.0","0","180.0","180.0","0","0","180.0","0","180.0","0","0"};
+        String[] m15_4=new String[]{"180.0","180.0","0","180.0","180.0","0","0","180.0","0","180.0","0","0","0","0","180.0"};
+        String[] m15_5=new String[]{"0","180.0","0","180.0","0","0","0","0","180.0","180.0","180.0","0","180.0","180.0","0"};
+        String[] m15_6=new String[]{"180.0","0","0","180.0","0","180.0","0","0","0","0","180.0","180.0","180.0","0","180.0"};
+        String[] m15_7=new String[]{"0","0","0","180.0","180.0","180.0","0","180.0","180.0","0","0","180.0","0","180.0","0"};
+        String[] m15_8=new String[]{"180.0","180.0","180.0","0","180.0","180.0","0","0","180.0","0","180.0","0","0","0","0"};
+        String[] m15_9=new String[]{"0","180.0","180.0","0","0","180.0","0","180.0","0","0","0","0","180.0","180.0","180.0"};
+        String[] m15_10=new String[]{"180.0","0","180.0","0","0","0","0","180.0","180.0","180.0","0","180.0","180.0","0","0"};
+        String[] m15_11=new String[]{"0","0","180.0","0","180.0","0","0","0","0","180.0","180.0","180.0","0","180.0","180.0"};
+        String[] m15_12=new String[]{"180.0","180.0","0","0","180.0","0","180.0","0","0","0","0","180.0","180.0","180.0","0"};
+        String[] m15_13=new String[]{"0","180.0","0","0","0","0","180.0","180.0","180.0","0","180.0","180.0","0","0","180.0"};
+        String[] m15_14=new String[]{"180.0","0","0","0","0","180.0","180.0","180.0","0","180.0","180.0","0","0","180.0","0"};
+        String[] m15_15=new String[]{"0","0","0","0","180.0","180.0","180.0","0","180.0","180.0","0","0","180.0","0","180.0"};
 
 
-        int[] arrint=new int[]{1,0,1,1,0,1,0,1};
-        int strLength=arrint.length;
-        String type="A";
+//        String[] arrstr=new String[]{"0","180.0","180.0","0","0","180.0","180.0","180.0","180.0","180.0","0","0","180.0","0","180.0","0","0","180.0","0","180.0","0","0","180.0","0","0","180.0","180.0","180.0","0","0","180.0","0",};
+        //      指定使用哪个码字类型，并码字的第几行
+        String[] arrstr=m15_15;
+        String str="15";
+        int strLength=arrstr.length;
+        String type="theta";
+
+
+//        int[] arrint=new int[]{1,0,1,1,0,1,0,1,1,1,0,0,1,0,1,0,0,0,1,0,0,1,1,1,1,1,0,1,0,0,1,1};
+//        int strLength=arrint.length;
+//        String type="A";
 
 
         //        计算光栅的周期和延迟
@@ -46,7 +103,7 @@ public class txt {
 
 
 //        创建SSFBG文件
-        String path="d:/Users/pc/Desktop/方案/point2/point2.vtmu_pack/Inputs/SSFBG_"+String.valueOf(strLength)+"_"+type+".txt";
+        String path="d:/Users/pc/Desktop/方案/point2/point2.vtmu_pack/Inputs/SSFBG_"+String.valueOf(strLength)+"_"+str+"_"+type+".txt";
         File fileName=new File(path);
         if (!fileName.exists()) {
             try {
@@ -61,35 +118,35 @@ public class txt {
 
 
 //        SSFBG——相位型
-//        for(int i=0;i<strLength;i++){
-//            fw.write("// 延迟"+String.valueOf(t)+":\n");
-//            fw.write("// Code-"+arrstr[i]+" grating:\n");
-//            fw.write("# CosineGrating\n");
-//            fw.write("# Phase (deg) = "+arrstr[i]+"\n");
-//            fw.write("# Delta_n (.) = 5.0e-4\n");
-//            fw.write("# Period (nm) = "+String.valueOf(period)+"\n");
-//            fw.write("# Z (mm) = "+String.valueOf(i*0.6)+" "+String.valueOf((i+1)*0.6)+"\n");
-//            fw.write("# EndCosineGrating\n");
-//            fw.write("\n");
-//        }
+        for(int i=0;i<strLength;i++){
+            fw.write("// 延迟"+String.valueOf(t)+":\n");
+            fw.write("// Code-"+arrstr[i]+" grating:\n");
+            fw.write("# CosineGrating\n");
+            fw.write("# Phase (deg) = "+arrstr[i]+"\n");
+            fw.write("# Delta_n (.) = 5.0e-4\n");
+            fw.write("# Period (nm) = "+String.valueOf(period)+"\n");
+            fw.write("# Z (mm) = "+String.valueOf(i*0.6)+" "+String.valueOf((i+1)*0.6)+"\n");
+            fw.write("# EndCosineGrating\n");
+            fw.write("\n");
+        }
 
 
 //        SSFBG——幅度型
-        for(int i=0;i<strLength;i++) {
-            if(arrint[i]==1)
-            {
-                fw.write("// 延迟"+String.valueOf(t)+":\n");
-                fw.write("// Code-" + String.valueOf(arrint[i]) + " grating:\n");
-                fw.write("# CosineGrating\n");
-                fw.write("# Phase (deg) = 0.0\n");
-                fw.write("# Delta_n (.) = " + String.valueOf(5.0e-4) + "\n");
-                fw.write("# Period (nm) = "+String.valueOf(period)+"\n");
-                fw.write("# Z (mm) = " + String.valueOf(i * 0.6) + " " + String.valueOf((i + 1) * 0.6) + "\n");
-                fw.write("# EndCosineGrating\n");
-                fw.write("\n");
-            }
-
-        }
+//        for(int i=0;i<strLength;i++) {
+//            if(arrint[i]==1)
+//            {
+//                fw.write("// 延迟"+String.valueOf(t)+":\n");
+//                fw.write("// Code-" + String.valueOf(arrint[i]) + " grating:\n");
+//                fw.write("# CosineGrating\n");
+//                fw.write("# Phase (deg) = 0.0\n");
+//                fw.write("# Delta_n (.) = " + String.valueOf(5.0e-4) + "\n");
+//                fw.write("# Period (nm) = "+String.valueOf(period)+"\n");
+//                fw.write("# Z (mm) = " + String.valueOf(i * 0.6) + " " + String.valueOf((i + 1) * 0.6) + "\n");
+//                fw.write("# EndCosineGrating\n");
+//                fw.write("\n");
+//            }
+//
+//        }
 
 
         fw.flush();
