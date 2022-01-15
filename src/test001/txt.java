@@ -56,6 +56,7 @@ public class txt {
         String[] H16_15=new String[]{"180.0","180.0","0","0","0","0","180.0","180.0","0","0","180.0","180.0","180.0","180.0","0","0"};
         String[] H16_16=new String[]{"180.0","0","0","180.0","0","180.0","180.0","0","0","180.0","180.0","0","180.0","0","0","180.0"};
 
+
 //        m序列
         String[] m7_1=new String[]{"0","180.0","180.0","0","180.0","0","0"};
         String[] m7_2=new String[]{"180.0","0","180.0","0","0","0","180.0"};
@@ -84,8 +85,8 @@ public class txt {
 
 //        String[] arrstr=new String[]{"0","180.0","180.0","0","0","180.0","180.0","180.0","180.0","180.0","0","0","180.0","0","180.0","0","0","180.0","0","180.0","0","0","180.0","0","0","180.0","180.0","180.0","0","0","180.0","0",};
         //      指定使用哪个码字类型，并码字的第几行
-        String[] arrstr=m15_15;
-        String str="15";
+        String[] arrstr=m15_1;
+        String str="1";
         int strLength=arrstr.length;
         String type="theta";
 
@@ -103,7 +104,8 @@ public class txt {
 
 
 //        创建SSFBG文件
-        String path="d:/Users/pc/Desktop/方案/point2/point2.vtmu_pack/Inputs/SSFBG_"+String.valueOf(strLength)+"_"+str+"_"+type+".txt";
+        String path="d:/Users/pc/Desktop/方案/point2/point2.vtmu_pack/Inputs/D_SSFBG_"+String.valueOf(strLength)+"_"+str+"_"+type+".txt";
+//        String path="d:/Users/pc/Desktop/方案/point2/point2.vtmu_pack/Inputs/SSFBG_"+String.valueOf(strLength)+"_"+str+"_"+type+".txt";
         File fileName=new File(path);
         if (!fileName.exists()) {
             try {
@@ -122,6 +124,12 @@ public class txt {
             fw.write("// 延迟"+String.valueOf(t)+":\n");
             fw.write("// Code-"+arrstr[i]+" grating:\n");
             fw.write("# CosineGrating\n");
+
+            if (arrstr[i]=="0")
+                arrstr[i]="180.0";
+            else
+                arrstr[i]="0";
+
             fw.write("# Phase (deg) = "+arrstr[i]+"\n");
             fw.write("# Delta_n (.) = 5.0e-4\n");
             fw.write("# Period (nm) = "+String.valueOf(period)+"\n");
