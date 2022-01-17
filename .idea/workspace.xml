@@ -50,8 +50,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test001/txt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="105" column="19" lean-forward="true" selection-start-line="105" selection-start-column="19" selection-end-line="105" selection-end-column="19" />
+            <state relative-caret-position="225">
+              <caret line="118" column="41" lean-forward="true" selection-start-line="118" selection-start-column="41" selection-end-line="118" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,10 +87,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="49" />
-    <option name="y" value="14" />
-    <option name="width" value="1818" />
-    <option name="height" value="1068" />
+    <option name="x" value="74" />
+    <option name="y" value="222" />
+    <option name="width" value="1940" />
+    <option name="height" value="837" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -266,7 +266,9 @@
       <workItem from="1641787560906" duration="4077000" />
       <workItem from="1641964346498" duration="7235000" />
       <workItem from="1641978898798" duration="588000" />
-      <workItem from="1642226974613" duration="1459000" />
+      <workItem from="1642226974613" duration="2715000" />
+      <workItem from="1642405192645" duration="3849000" />
+      <workItem from="1642411858901" duration="666000" />
     </task>
     <task id="LOCAL-00001" summary="加起来和为目标值的组合">
       <created>1635579402292</created>
@@ -310,17 +312,24 @@
       <option name="project" value="LOCAL" />
       <updated>1641976541009</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="1.4">
+      <created>1642228566706</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1642228566706</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99063000" />
+    <option name="totallyTimeSpent" value="104834000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="14" width="1818" height="1068" extended-state="0" />
+    <frame x="74" y="222" width="1940" height="837" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12457338" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11861702" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -329,7 +338,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.11456103" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3769559" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38526314" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -361,7 +370,8 @@
     <MESSAGE value="1.1" />
     <MESSAGE value="1.2" />
     <MESSAGE value="1.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.3" />
+    <MESSAGE value="1.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -516,8 +526,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test001/txt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="105" column="19" lean-forward="true" selection-start-line="105" selection-start-column="19" selection-end-line="105" selection-end-column="19" />
+        <state relative-caret-position="225">
+          <caret line="118" column="41" lean-forward="true" selection-start-line="118" selection-start-column="41" selection-end-line="118" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
