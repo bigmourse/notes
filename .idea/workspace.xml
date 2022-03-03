@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="673ae1d4-5384-4ed7-a677-87de71434413" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/LENOVO.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE001/test001/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaSE001/test001/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE001/test001/Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaSE001/test001/Solution1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE001/test001/Solution1030.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaSE001/test001/Solution1030.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE001/test001/Tes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaSE001/test001/Tes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE001/test001/Test002.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaSE001/test001/Test002.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE001/test001/Test1029.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaSE001/test001/Test1029.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE001/test001/Test1030.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaSE001/test001/Test1030.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE001/test001/Test1102.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaSE001/test001/Test1102.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE001/test001/Test2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaSE001/test001/Test2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE001/test001/Test3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaSE001/test001/Test3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE001/test001/TestInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaSE001/test001/TestInput.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaSE001/test001/txt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaSE001/test001/txt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test001/Test1029.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test001/Test1029.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test001/txt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test001/txt.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,41 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test001/Test1029.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="875">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test001/Test1102.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test001/Test1030.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test001/txt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="118" column="41" lean-forward="true" selection-start-line="118" selection-start-column="41" selection-end-line="118" selection-end-column="41" />
+            <state relative-caret-position="103">
+              <caret line="130" column="22" selection-start-line="130" selection-start-column="22" selection-end-line="130" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,21 +65,20 @@
         <option value="$PROJECT_DIR$/src/test001/Test2.java" />
         <option value="$PROJECT_DIR$/src/test001/Tes.java" />
         <option value="$PROJECT_DIR$/src/test001/Test1030.java" />
-        <option value="$PROJECT_DIR$/src/test001/Test1029.java" />
         <option value="$PROJECT_DIR$/src/test001/Test1102.java" />
+        <option value="$PROJECT_DIR$/src/test001/Test1029.java" />
         <option value="$PROJECT_DIR$/src/test001/txt.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="74" />
-    <option name="y" value="222" />
-    <option name="width" value="1940" />
-    <option name="height" value="837" />
+    <option name="width" value="1941" />
+    <option name="height" value="1041" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -102,19 +86,26 @@
         <subPane>
           <expand>
             <path>
-              <item name="javaSE001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaSE001" type="462c0819:PsiDirectoryNode" />
+              <item name="notes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="notes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="javaSE001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaSE001" type="462c0819:PsiDirectoryNode" />
+              <item name="notes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="notes" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="javaSE001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaSE001" type="462c0819:PsiDirectoryNode" />
+              <item name="notes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="notes" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test001" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="notes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="notes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test001" type="462c0819:PsiDirectoryNode" />
+              <item name="Test1029.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -138,9 +129,10 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -223,9 +215,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.txt" />
+        <item itemvalue="Application.Test1029" />
         <item itemvalue="Application.Test1102" />
         <item itemvalue="Application.Test1030" />
-        <item itemvalue="Application.Test1029" />
         <item itemvalue="Application.Test2" />
       </list>
     </recent_temporary>
@@ -269,6 +261,12 @@
       <workItem from="1642226974613" duration="2715000" />
       <workItem from="1642405192645" duration="3849000" />
       <workItem from="1642411858901" duration="666000" />
+      <workItem from="1644912123213" duration="352000" />
+      <workItem from="1644916043617" duration="1557000" />
+      <workItem from="1644918759320" duration="2595000" />
+      <workItem from="1644980091565" duration="4471000" />
+      <workItem from="1644989449733" duration="14000" />
+      <workItem from="1645005705580" duration="1324000" />
     </task>
     <task id="LOCAL-00001" summary="加起来和为目标值的组合">
       <created>1635579402292</created>
@@ -323,13 +321,22 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104834000" />
+    <option name="totallyTimeSpent" value="115147000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="74" y="222" width="1940" height="837" extended-state="0" />
+    <frame x="4" y="0" width="1552" height="832" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11861702" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12650603" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -338,17 +345,17 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3769559" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38526314" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5850067" weight="0.27857143" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49933067" weight="0.38428572" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4986613" weight="0.32904148" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4986613" weight="0.32904148" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32842106" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49799198" weight="0.32904148" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.41499332" side_tool="true" visible="true" weight="0.27857143" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49732262" weight="0.32714286" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -413,52 +420,16 @@
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test001/Test1029.java</url>
-          <line>46</line>
+          <url>file://$PROJECT_DIR$/src/test001/txt.java</url>
+          <line>33</line>
           <properties />
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test001/Test1029.java</url>
-          <line>44</line>
-          <properties />
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test001/Test1029.java</url>
-          <line>49</line>
-          <properties />
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test001/Test1029.java</url>
-          <line>45</line>
-          <properties />
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test001/Test1029.java</url>
-          <line>40</line>
-          <properties />
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test001/Test1029.java</url>
-          <line>41</line>
-          <properties />
-          <option name="timeStamp" value="27" />
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/Program Files/Java/jdk-11.0.12/lib/src.zip!/java.base/java/util/concurrent/CountDownLatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-339">
-          <caret line="198" column="11" selection-start-line="198" selection-start-column="11" selection-end-line="198" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.12/lib/src.zip!/java.base/java/util/concurrent/CountDownLatch.java" />
     <entry file="file://$PROJECT_DIR$/src/test001/Test002.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -500,34 +471,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test001/Test1029.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="875">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test001/Test1102.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
+        <state relative-caret-position="76">
           <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test001/Test1030.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
+        <state relative-caret-position="323">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test001/Test1029.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test001/txt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="118" column="41" lean-forward="true" selection-start-line="118" selection-start-column="41" selection-end-line="118" selection-end-column="41" />
+        <state relative-caret-position="103">
+          <caret line="130" column="22" selection-start-line="130" selection-start-column="22" selection-end-line="130" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -573,6 +544,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -584,10 +556,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
+          <last-edited>javaSE001</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
