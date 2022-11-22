@@ -4,21 +4,19 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Test2 {
-    public static void main(String[] args) {
-        Scanner scanner=new Scanner(System.in);
-        int anInt=scanner.nextInt();
-        int number=9876673;
-        String str=String.valueOf(number);
-        StringBuffer buf=new StringBuffer();
-        ArrayList<Character> arr=new ArrayList();
-        for(int i=0;i<str.length();i++){
-            if(!arr.contains(str.charAt(i))){
-                buf.append(str.charAt(i));
-                arr.add(str.charAt(i));
-            }
+
+        public static void main(String[] args) {
+            System.out.println(1);
+            new Thread(){
+                @Override
+                public void run() {
+                    for(int i=0;i<10;i++){
+                        System.out.println(i);
+                    }
+
+                }
+            }.start();
+
         }
-        System.out.println(buf.toString());
-        int n=Integer.parseInt(buf.reverse().toString());
-        System.out.println(n);
-    }
+
 }
