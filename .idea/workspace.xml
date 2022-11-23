@@ -1,22 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="673ae1d4-5384-4ed7-a677-87de71434413" name="Default Changelist" comment="1.5">
-      <change afterPath="$PROJECT_DIR$/src/test001/T001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test001/T002.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test001/T003.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test001/T004.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test001/T005.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test001/T006.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test001/T006_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test001/T007.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test001/T008.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test001/T009.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test001/T01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test001/T010.java" afterDir="false" />
+    <list default="true" id="673ae1d4-5384-4ed7-a677-87de71434413" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/note1_10/Carpoool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/note1_10/MaximumNumberOfBallsInTheBoox.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaSE001/test001/Test2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaSE001/test001/Test2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test001/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test001/Test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/note/WordDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/note1_10/WordDistance.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,23 +22,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test001/Tes.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/note1_10/WordDistance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+            <state relative-caret-position="85">
+              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test001/T004.java">
+        <entry file="file://$PROJECT_DIR$/src/note1_10/MaximumNumberOfBallsInTheBoox.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="323">
+              <caret line="31" column="45" lean-forward="true" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/note1_10/Carpoool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -154,13 +149,23 @@
         <option value="$PROJECT_DIR$/src/test001/T006_2.java" />
         <option value="$PROJECT_DIR$/src/test001/T005.java" />
         <option value="$PROJECT_DIR$/src/test001/Test2.java" />
+        <option value="$PROJECT_DIR$/src/note/WordDistance.java" />
+        <option value="$PROJECT_DIR$/src/note1_10/WordDistance.java" />
+        <option value="$PROJECT_DIR$/src/note1_10/MaximumNumberOfBallsInTheBoox.java" />
+        <option value="$PROJECT_DIR$/src/note1_10/Carpoool.java" />
       </list>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="472" />
-    <option name="y" value="13" />
-    <option name="width" value="1430" />
+    <option name="x" value="670" />
+    <option name="y" value="3" />
+    <option name="width" value="1252" />
     <option name="height" value="1020" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -172,6 +177,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -193,14 +200,12 @@
               <item name="notes" type="b2602c69:ProjectViewProjectNode" />
               <item name="notes" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test001" type="462c0819:PsiDirectoryNode" />
+              <item name="note1_10" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -235,13 +240,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test2">
-    <configuration name="T001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test001.T001" />
+  <component name="RunManager" selected="Application.Carpoool">
+    <configuration name="Carpoool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="note1_10.Carpoool" />
       <module name="javaSE001" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test001.*" />
+          <option name="PATTERN" value="note1_10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -249,12 +254,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T004" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test001.T004" />
+    <configuration name="MaximumNumberOfBallsInTheBoox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="note1_10.MaximumNumberOfBallsInTheBoox" />
       <module name="javaSE001" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test001.*" />
+          <option name="PATTERN" value="note1_10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -264,19 +269,6 @@
     </configuration>
     <configuration name="T005" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test001.T005" />
-      <module name="javaSE001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test001.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="T01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test001.T01" />
       <module name="javaSE001" />
       <extension name="coverage">
         <pattern>
@@ -301,20 +293,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WordDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="note1_10.WordDistance" />
+      <module name="javaSE001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="note1_10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.T01" />
-      <item itemvalue="Application.T001" />
-      <item itemvalue="Application.T004" />
       <item itemvalue="Application.T005" />
       <item itemvalue="Application.Test2" />
+      <item itemvalue="Application.WordDistance" />
+      <item itemvalue="Application.MaximumNumberOfBallsInTheBoox" />
+      <item itemvalue="Application.Carpoool" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Carpoool" />
+        <item itemvalue="Application.MaximumNumberOfBallsInTheBoox" />
+        <item itemvalue="Application.WordDistance" />
         <item itemvalue="Application.Test2" />
         <item itemvalue="Application.T005" />
-        <item itemvalue="Application.T01" />
-        <item itemvalue="Application.T004" />
-        <item itemvalue="Application.T001" />
       </list>
     </recent_temporary>
   </component>
@@ -375,6 +380,8 @@
       <workItem from="1659359523535" duration="47000" />
       <workItem from="1659359620389" duration="67000" />
       <workItem from="1661269625435" duration="12000" />
+      <workItem from="1669125431361" duration="3099000" />
+      <workItem from="1669203539279" duration="6186000" />
     </task>
     <task id="LOCAL-00001" summary="加起来和为目标值的组合">
       <created>1635579402292</created>
@@ -432,11 +439,25 @@
       <option name="project" value="LOCAL" />
       <updated>1646278820428</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="1.5">
+      <created>1669125627273</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669125627274</updated>
+    </task>
+    <task id="LOCAL-00010" summary="1">
+      <created>1669130568887</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1669130568887</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176529000" />
+    <option name="totallyTimeSpent" value="185814000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -448,11 +469,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="304" y="16" width="1144" height="816" extended-state="0" />
+    <frame x="536" y="3" width="1001" height="816" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21086556" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992126" visible="true" weight="0.23435843" />
+      <window_info id="Structure" order="1" sideWeight="0.5015723" side_tool="true" weight="0.2145488" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -460,24 +481,24 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5718232" weight="0.27525622" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.48802948" weight="0.38088235" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.68398726" visible="true" weight="0.2748538" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.48742515" weight="0.38011697" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.34557235" weight="0.3266762" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49631676" weight="0.32647058" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49401915" weight="0.3260234" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49799198" weight="0.32904148" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.4281768" side_tool="true" visible="true" weight="0.2748538" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4907919" weight="0.32551318" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49641147" weight="0.32894737" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.31601274" side_tool="true" visible="true" weight="0.2748538" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.48982036" weight="0.32456142" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.32934132" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
@@ -494,7 +515,8 @@
     <MESSAGE value="1.3" />
     <MESSAGE value="1.4" />
     <MESSAGE value="1.5" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.5" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -696,7 +718,14 @@
     <entry file="file://$PROJECT_DIR$/src/test001/Tes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/JDK1.8/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="62" column="38" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -756,6 +785,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/note1_10/WordDistance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/note1_10/MaximumNumberOfBallsInTheBoox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="31" column="45" lean-forward="true" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/note1_10/Carpoool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
         </state>
       </provider>
     </entry>

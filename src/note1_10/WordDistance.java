@@ -1,5 +1,9 @@
-package note;
+package note1_10;
 
+
+/*
+    单词距离
+ */
 public class WordDistance {
 
 
